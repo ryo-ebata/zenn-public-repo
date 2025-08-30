@@ -186,7 +186,7 @@ Zenn のテンプレートリポジトリなどから GitHub で作成した場�
 リポジトリのセットアップができたら、GitHub の Web ページからリポジトリを作成するか [GitHub CLI](https://cli.github.com) の `gh create repo` コマンドを使ってコマンドラインからリポジトリを作成してください。
 
 ```sh
-❯ gh repo creae zenn-repo --public "Zenn用公開リポジトリ"
+❯ gh repo create zenn-repo --public "Zenn用公開リポジトリ"
 ```
 
 GitHub のリポジトリを作成したらそれをリモートリポジトリとして設定します。これで `git push` できるようになります。
